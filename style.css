@@ -1,0 +1,26 @@
+.heading {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    box-shadow: 5px 20px 20px black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+canvas {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    border: 5px solid rgb(0, 150, 255);
+    border-radius: 20px;
+}
+@keyframes example {
+    from{
+    box-shadow: 20px 20px 38px blue;
+    }
+    to{
+    box-shadow: 20px 20px 38px rgb(255, 153, 45);
+    }
+}
+.input {
+     width: 2000px;
+}
